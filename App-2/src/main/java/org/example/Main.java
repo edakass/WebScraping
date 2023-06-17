@@ -38,6 +38,10 @@ public class Main {
         for (Element item : navBar) {
             String categoryName = item.text();
             String link = item.attr("href");
+              /*href ile ilgili 3 tip var hangisi daha iyi bilmiyorum
+            link.attr("href") − provides the value of href present in anchor tag. It may be relative or absolute.
+            link.attr("abs:href") − provides the absolute url after resolving against the document's base URI.
+            link.absUrl("href")  (site links : https://www.tutorialspoint.com/jsoup/jsoup_use_url.htm) */
 
             if(categoryName.equals("Deals")){
                 break;
