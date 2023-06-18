@@ -89,3 +89,38 @@ public class Main {
 
   }
 }
+/*
+ Document doc = Jsoup.connect("https://www.ebay.com/").get();
+        System.out.println("Title " + doc.title());
+        
+        Elements navBar = doc.select("#mainContent .hl-cat-nav__js-tab > a");
+        System.out.println();
+
+        for (Element item : navBar) {
+            String categoryName = item.text();
+            String link = item.absUrl("href");
+
+            if (categoryName.equals("Deals")) {
+                break;
+            }
+            System.out.println("Category: " + categoryName + " Link: " + link);
+
+            Document categoryPage = Jsoup.connect(link).get();
+
+            Elements links = categoryPage.select("a");
+
+            for (Element subLink : links) {
+                String subLinkText = subLink.text();
+                String subLinkUrl = subLink.absUrl("href");
+
+                if(subLinkUrl.equals("https://www.ebayinc.com/company") || subLinkUrl.equals("https://www.ebay.com/mys/home?source=GBH")){
+                    continue; // break demek istiyorum ama burada diğerlerini yoksaycak
+                }else {
+                    System.out.println("  Sublink Text: " + subLinkText);
+                    System.out.println("  Sublink URL: " + subLinkUrl);
+                }
+
+            }
+            System.out.println();
+        }
+*/
