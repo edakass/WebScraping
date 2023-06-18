@@ -1,13 +1,15 @@
 # WebScraping
 
 ## DOM 
-DOM nedir? İnternetten bulabileceginiz tanımı DOM Document Object Model kelimesinin kısaltılmasından gelir ve Türkçe karşılığı Belge Nesne Modelidir. DOM, HTML, XML gibi belgelerin diğer programlama dilleri veya script dilleriyle iletişim kurabilmesini sağlamak için geliştirilmiş bir arabirimdir.
+DOM Document Object Model kelimesinin kısaltılmasından gelir ve Türkçe karşılığı Belge Nesne Modelidir. DOM, HTML, XML gibi belgelerin diğer programlama dilleri veya script dilleriyle iletişim kurabilmesini sağlamak için geliştirilmiş bir arabirimdir.
 
 ## JSOUP
 
 JSOUP, Java dilinde bir HTML ve XML parse etme ve düzenleme kütüphanesidir. Bu kütüphane, web sayfalarını indirme, tarama ve çözümleme gibi işlemleri yapmak için kullanılır. JSOUP, Java’da kolay ve etkili bir şekilde web sayfalarının içeriğine erişmenize yardımcı olur.
 
 important links : https://jsoup.org/cookbook/extracting-data/selector-syntax
+
+--
 
 which chromedriver
 /usr/local/bin/chromedriver
